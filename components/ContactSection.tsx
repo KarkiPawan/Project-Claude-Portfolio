@@ -40,7 +40,7 @@ export default function ContactSection() {
           <div className="flex flex-col items-start md:items-end gap-3">
             <a
               href="mailto:hello@pawankarki.com"
-              className="group inline-flex items-center gap-3 px-8 py-4 bg-[#0a0a0a] text-white text-sm font-medium hover:bg-[#FF5A0E] transition-all duration-300 rounded-full"
+              className="group inline-flex items-center gap-3 px-8 py-4 bg-[#0a0a0a] text-white text-[16px] font-medium hover:bg-[#FF5A0E] transition-all duration-300 rounded-[4px]"
             >
               hello@pawankarki.com
               <svg className="w-4 h-4 group-hover:translate-x-0.5 transition-transform duration-200" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -51,7 +51,7 @@ export default function ContactSection() {
               href="https://linkedin.com/in/pawankarki"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-8 py-4 border border-neutral-200 text-[#0a0a0a] text-sm font-medium hover:border-neutral-400 transition-all duration-300 rounded-full"
+              className="inline-flex items-center gap-2 px-8 py-4 border border-neutral-200 text-[#0a0a0a] text-[16px] font-medium hover:border-neutral-400 transition-all duration-300 rounded-[4px]"
             >
               Connect on LinkedIn
               <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">

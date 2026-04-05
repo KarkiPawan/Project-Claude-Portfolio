@@ -41,14 +41,14 @@ export default function Header() {
             <Link
               key={link.href}
               href={link.href}
-              className="text-[13px] text-neutral-400 hover:text-[#0a0a0a] transition-colors duration-300"
+              className="text-[16px] font-medium text-neutral-400 hover:text-[#0a0a0a] transition-colors duration-300"
             >
               {link.label}
             </Link>
           ))}
           <a
             href="mailto:hello@pawankarki.com"
-            className="text-[13px] px-5 py-2.5 bg-[#0a0a0a] text-white hover:bg-[#FF5A0E] transition-all duration-300 rounded-full font-medium"
+            className="text-[16px] px-5 py-2.5 bg-[#FF5A0E] text-white hover:bg-[#E04E0C] transition-all duration-300 rounded-[4px] font-medium"
           >
             Let's Talk
           </a>

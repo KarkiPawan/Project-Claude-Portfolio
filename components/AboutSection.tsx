@@ -85,7 +85,7 @@ export default function AboutSection() {
                 href="/resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-6 py-3 text-[13px] font-medium text-[#0a0a0a] border border-neutral-200 hover:border-[#FF5A0E] hover:text-[#FF5A0E] transition-all duration-300 rounded-full group"
+                className="inline-flex items-center gap-2 px-6 py-3 text-[13px] font-medium text-[#0a0a0a] border border-neutral-200 hover:border-[#FF5A0E] hover:text-[#FF5A0E] transition-all duration-300 rounded-[4px] group"
               >
                 Download Resume
                 <svg className="w-3.5 h-3.5 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-200" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -115,7 +115,7 @@ export default function AboutSection() {
                 {skills.map((skill) => (
                   <span
                     key={skill}
-                    className="text-[13px] text-[#0a0a0a] border border-neutral-200 px-4 py-2 rounded-full bg-white hover:border-[#FF5A0E] hover:text-[#FF5A0E] transition-colors duration-300 cursor-default"
+                    className="text-[13px] text-[#0a0a0a] border border-neutral-200 px-4 py-2 rounded-[4px] bg-white hover:border-[#FF5A0E] hover:text-[#FF5A0E] transition-colors duration-300 cursor-default"
                   >
                     {skill}
                   </span>
@@ -132,7 +132,7 @@ export default function AboutSection() {
                 {tools.map((tool) => (
                   <span
                     key={tool}
-                    className="text-[13px] text-neutral-400 bg-neutral-50 px-4 py-2 rounded-full"
+                    className="text-[13px] text-neutral-400 bg-neutral-50 px-4 py-2 rounded-[4px]"
                   >
                     {tool}
                   </span>
